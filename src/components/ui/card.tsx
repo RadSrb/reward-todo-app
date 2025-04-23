@@ -1,5 +1,5 @@
 import * as React from "react";
-import * as clsx from "clsx";
+import clsx from "clsx";
 import "./card.css"; // Importiere eine CSS-Datei für das Styling
 
 function Card({

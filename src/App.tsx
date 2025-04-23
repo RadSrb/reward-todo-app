@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Card, CardContent } from "./components/ui/card";
-import { Button } from "./components/ui/button";
-import { Input } from "./components/ui/input";
+import { Card, CardContent } from "./components/ui/card.js";
+import { Button } from "./components/ui/button.js";
+import { Input } from "./components/ui/input.js";
 import { Star } from "lucide-react";
-import { Progress } from "./components/ui/progress";
+import { Progress } from "./components/ui/progress.js";
 
 interface Task {
   text: string;
